@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+h1 {
+  color: lightseagreen;
+  margin-bottom: 0px;
+}
+h2 {
+  color: aliceblue;
+}
+input {
+  padding-top: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background: none;
+  border-top: thin;
+  margin: 20px;
+  margin-bottom: 0px;
+  outline: none;
+  border-color: rgb(54, 224, 202);
+  border-width: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+  display: inline;
+  color: blue;
+  padding-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background: none;
+  white-space: nowrap;
+  padding: 8px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 40px;
+  margin-top: 30px;
+  border-color: white;
+  border-width: 1px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  background-color: blue;
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: cadetblue;
+  width: 100%;
+}
+.container1 {
+  width: 80%;
+  background-color: rgb(235, 229, 220);
+  height: 80vh;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 10px;
+}
+.left-panel {
+  float: left;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 50px;
+  background-color: lightseagreen;
+  height: 90%;
+}
+h6 {
+  color: gray;
+  margin-left: 10px;
+  margin: 0px;
+  margin-left: 20px;
+}
+.right-panel {
+  float: right;
+  width: 40%;
+
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  color: antiquewhite;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+.btn {
+  background-color: lightseagreen;
+  margin-left: 50px;
+}
+.btn-1 {
+  margin-left: 10px;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  font-size: small;
+  color: rgb(230, 87, 87);
+  margin-left: 40px;
+  margin-top: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  margin-left: 50px;
+  display: flex;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+  width: 80px;
+  margin-left: 20px;
 }
